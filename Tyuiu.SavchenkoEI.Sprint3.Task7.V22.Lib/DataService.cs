@@ -10,7 +10,7 @@ namespace Tyuiu.SavchenkoEI.Sprint3.Task7.V22.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                y = Math.Round((Math.Sin(x) + (Math.Cos(2 * x) / 2) - 1.5 * x), 3);
+                y = Math.Round((Math.Sin(x) + (Math.Cos(2 * x) / 2) - 1.5 * x), 2);
                 valueArray[count++] = y;
             }
             return valueArray;
