@@ -7,7 +7,11 @@
     <Project Path="Tyuiu.SavchenkoEI.Sprint3.Task0.V19.Test/Tyuiu.SavchenkoEI.Sprint3.Task0.V19.Test.csproj" />
     <Project Path="Tyuiu.SavchenkoEI.Sprint3.Task0.V19/Tyuiu.SavchenkoEI.Sprint3.Task0.V19.csproj" />
   </Folder>
-  <Folder Name="/Task1/" />
+  <Folder Name="/Task1/">
+    <Project Path="Tyuiu.SavchenkoEI.Sprint3.Task1.V17.Lib/Tyuiu.SavchenkoEI.Sprint3.Task1.V17.Lib.csproj" />
+    <Project Path="Tyuiu.SavchenkoEI.Sprint3.Task1.V17.Test/Tyuiu.SavchenkoEI.Sprint3.Task1.V17.Test.csproj" />
+    <Project Path="Tyuiu.SavchenkoEI.Sprint3.Task1.V17/Tyuiu.SavchenkoEI.Sprint3.Task1.V17.csproj" />
+  </Folder>
   <Folder Name="/Task3/" />
   <Folder Name="/Task4/" />
   <Folder Name="/Task5/" />
