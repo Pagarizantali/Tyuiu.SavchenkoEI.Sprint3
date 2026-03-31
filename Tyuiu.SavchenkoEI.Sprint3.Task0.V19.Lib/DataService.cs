@@ -6,11 +6,11 @@ namespace Tyuiu.SavchenkoEI.Sprint3.Task0.V19.Lib
         public double GetSumSeries(int startValue, int stopValue)
         {
             double sum = 0;
-            for (int i = startValue; i < stopValue; i++)
+            for (int i = startValue; i < stopValue+1; i++)
             {
                 sum += Math.Pow(1 / (Math.Cos(i)+2), 2);
             }
-            return sum;
+            return Math.Round(sum,3);
         }
     }
 }
